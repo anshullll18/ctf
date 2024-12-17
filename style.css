@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#secret {
+  color: green;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+#revealBtn {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#revealBtn:hover {
+  background-color: #45a049;
+}
+#flag {
+  opacity: 0%;
+}
